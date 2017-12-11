@@ -1,0 +1,38 @@
+{
+    "name": "course-file-quicklinks",
+    "version": "1.0.0",
+    "description": "Fix the quicklinks from the course files",
+    "main": "main.js",
+    "dependencies": {
+        "babel-eslint": "^8.0.3",
+        "canvas-wrapper": "git+https://github.com/byuitechops/Canvas-wrapper.git",
+        "child-module-standard-tests": "github:byuitechops/child-module-standard-tests",
+        "copy-a-canvas-course": "github:byuitechops/copy-a-canvas-course",
+        "course-object-verifier": "github:byuitechops/course-object-verifier",
+        "create-course-object": "github:byuitechops/create-course-object",
+        "d2l-course-downloader": "github:byuitechops/d2l-course-downloader",
+        "eslint-plugin-react": "^7.5.1",
+        "index-directory": "github:byuitechops/index-directory",
+        "nightmare-helpers": "github:byuitechops/nightmare-helpers"
+    },
+    "devDependencies": {
+        "async": "^2.6.0",
+        "child-development-kit": "github:byuitechops/child-development-kit",
+        "tap": "^10.7.3"
+    },
+    "scripts": {
+        "start": "node ./node_modules/child-development-kit/runChild.js",
+        "test": "tap ./node_modules/child-development-kit/testChild.js -T"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/byuitechops/course-file-quicklinks.git"
+    },
+    "author": "Zachary Williams",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/byuitechops/course-file-quicklinks/issues"
+    },
+    "homepage": "https://github.com/byuitechops/course-file-quicklinks#readme",
+    "childType": "postImport"
+}
